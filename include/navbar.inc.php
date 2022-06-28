@@ -5,7 +5,7 @@
 </div>
 
 <div id="navbar">
-  <a href="index.php?page=home">Home</a>
-  <a href="index.php?page=coding">Coding</a>
-  <a href="index.php?page=contact">Contact</a>
+  <a href="index.php?page=home"><b>Home</b></a>
+  <a href="index.php?page=coding"><b>Coding</b></a>
+  <a href="index.php?page=contact"><b>Contact</b></a>
 </div>

@@ -14,21 +14,20 @@
       <title>home - Robin</title>
       <link href="css/style.css" rel="stylesheet">
       <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
-      <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Chelsea Market' rel='stylesheet'>
   </head>
   <body>
-    <?php include 'include/navbar.inc.php'; ?>
-
-      <?php //echo "<pre>", print_r($_SESSION),"</pre>";?>
-
     <?php
+      include 'include/navbar.inc.php';
+
       if (isset($_GET['page'])) {
         include 'include/'.$page.'.inc.php';
       } else {
         include 'include/home.inc.php';
       }
     ?>
-
     <footer>
     </footer>
   </body>
