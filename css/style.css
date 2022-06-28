@@ -16,11 +16,20 @@ body {
 /*---------------------navbar-------------------------*/
 
 .header {
-  background: linear-gradient(to bottom, #b3b3b3, #0d0d0d);
-  padding: 25px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  padding: 5px;
   text-align: center;
-  font-family: 'Abril Fatface';font-size: 25px;
+  font-family: 'Sofia';font-size: 35px;
   color: #cccccc;
+}
+
+.header h2 {
+  margin-left: 39.2%;
+  width: 405px;
+  height: 130px;
+  background: transparent;
+  border: 25px solid rgba(0,0,0,0.9);
+  border-radius: 25px;
 }
 
 #navbar {
@@ -35,7 +44,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Alfa Slab One';font-size: 22px;
+  font-family: 'Chelsea Market';font-size: 25px;
 }
 
 #navbar a:hover {
@@ -62,6 +71,26 @@ body {
   padding-top: 60px;
 }
 
+/*---------------------scrollbar-------------------------*/
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+  padding: 1px;
+  background: #1daf8d;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
+}
+
 /*-----------------------footer--------------------------*/
 
 footer {
@@ -81,6 +110,7 @@ footer {
 
 .row {
   display: flex;
+  padding: 10px;
 }
 
 .row h2 {
@@ -90,6 +120,13 @@ footer {
 .left {
   flex: 20%;
   padding: 15px 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.left a {
+  text-decoration: none;
+  color: black;
 }
 
 .left h2 {
@@ -98,7 +135,9 @@ footer {
 
 .right {
   flex: 80%;
-  padding: 15px;
+  padding: 25px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .right a {
@@ -132,9 +171,13 @@ footer {
 /*-----------------------card--------------------------*/
 
 .card {
-  box-shadow: 0 8px 160px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 160px 0 rgba(0,0,0,0.5);
   transition: 1.0s;
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -146,7 +189,12 @@ footer {
   padding: 22px 10px;
 }
 
+.container h2 {
+  font-family: 'Chelsea Market';font-size: 40px
+}
+
 .container a {
+  font-family: 'Chelsea Market';font-size: 20px
 }
 
 /*-----------------------buttons--------------------------*/
@@ -168,6 +216,10 @@ footer {
 }
 
 /*--------------------random somthing----------------------*/
+
+#robin {
+  font-family: 'Sofia';font-size: 33px
+}
 
 #left {
   float: left;
