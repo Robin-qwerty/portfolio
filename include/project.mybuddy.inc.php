@@ -1,10 +1,10 @@
 <h2>Mybuddy</h2>
-<h4>programmeertalen: HTML, CSS & PHP</h4>
+<h4>programmeertalen: HTML, CSS &amp; PHP</h4>
 <a href="../MyBuddy/index.php" target="_blank" class="button">kijkje nemen</a>
 <p>
-  In dit project moesten we een website maken waar mensen groepen in konden aanmaken en daar in geld konden delen.
-  dus als je een keer met vrienden uiteten ging ofzo dan kon de genen die betaald had een groep aan maken daar zijn
-  vrienden in uitnodegen en dan een groeps betaaling aanmaken en die konden die dan betaalen.
+  In dit project maakten we een website waarin mensen groepen kunnen aanmaken en daarin geld kunnen delen.
+  Als je een keer met vrienden uiteten gaat dan kan degene die betaalt een groep aanmaken, daar zijn
+  vrienden in uitnodigen, een groepsbetaling aanmaken, en die laten betalen.
 </p>
 <div id="left">
   <h4>De MySQL database die ik daarbij heb gemaakt</h4>
