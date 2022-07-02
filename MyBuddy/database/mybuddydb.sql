@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 29, 2022 at 09:23 AM
+-- Generation Time: Jul 02, 2022 at 11:08 AM
 -- Server version: 10.6.8-MariaDB
 -- PHP Version: 8.1.7
 
@@ -40,8 +40,8 @@ CREATE TABLE `groepen` (
 --
 
 INSERT INTO `groepen` (`groep_id`, `naam`, `beschrijving`, `groepsbalans`, `data`) VALUES
-(4, 'q', 'q', '225.10', '0000-00-00'),
-(5, 'but groep', 'van meno', '0.00', '0000-00-00'),
+(4, 'q', 'q', '447.10', '0000-00-00'),
+(5, 'but groep', 'van meno', '666.00', '0000-00-00'),
 (6, 'qqqqqqq', 'test aanpassen', '123.00', '0000-00-00');
 
 -- --------------------------------------------------------
@@ -53,7 +53,7 @@ INSERT INTO `groepen` (`groep_id`, `naam`, `beschrijving`, `groepsbalans`, `data
 CREATE TABLE `groepsbetalingen` (
   `id` int(11) NOT NULL,
   `van_lid` int(11) NOT NULL,
-  `bedrag` float NOT NULL,
+  `bedrag` decimal(9,2) NOT NULL,
   `betaald` varchar(3) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -62,10 +62,13 @@ CREATE TABLE `groepsbetalingen` (
 --
 
 INSERT INTO `groepsbetalingen` (`id`, `van_lid`, `bedrag`, `betaald`) VALUES
-(19, 20, 12, 'yes'),
-(21, 22, 123, 'yes'),
-(33, 1, 111, 'yes'),
-(34, 19, 111, 'no');
+(19, 20, '12.00', 'yes'),
+(21, 22, '123.00', 'yes'),
+(33, 1, '111.00', 'no'),
+(34, 19, '111.00', 'no'),
+(38, 5, '111.00', 'no'),
+(39, 23, '111.00', 'no'),
+(40, 24, '111.00', 'yes');
 
 -- --------------------------------------------------------
 
@@ -92,7 +95,9 @@ INSERT INTO `leden` (`id`, `groep`, `user`, `owner`, `uitnodiging`) VALUES
 (19, 4, 6, 2, 1),
 (20, 6, 6, 0, 1),
 (21, 6, 3, 0, 1),
-(22, 6, 9, 0, 1);
+(22, 6, 9, 0, 1),
+(23, 5, 9, 0, 1),
+(24, 5, 11, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -118,10 +123,10 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`user_id`, `roll`, `email`, `password`, `name`, `tussenvoegsel`, `achternaam`, `bankrekeningnummer`, `balans`) VALUES
 (3, 'admin', 'admin', 'q', 'admin', 'admin', 'admin', 'admin', '0.00'),
-(6, 'meno@but.nl', 'meno@but.nl', '123', 'meno', '', 'but', '12345678', '8.00'),
+(6, 'meno@but.nl', 'meno@but.nl', '123', 'meno', '', 'but', '12345678', '222.00'),
 (9, 'l', 'l', 'l', 'l', 'l', 'l', 'l', '0.00'),
 (10, 'admi\\nn', 'admi\\nn', 'admin', 'sam', 'van', 'vdad', '413', '0.00'),
-(11, 'q', 'q', 'q', 'q', 'q', 'q', 'q', '1234588.00');
+(11, 'q', 'q', 'q', 'q', 'q', 'q', 'q', '1234366.00');
 
 --
 -- Indexes for dumped tables
@@ -169,13 +174,13 @@ ALTER TABLE `groepen`
 -- AUTO_INCREMENT for table `groepsbetalingen`
 --
 ALTER TABLE `groepsbetalingen`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT for table `leden`
 --
 ALTER TABLE `leden`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `users`
