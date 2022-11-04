@@ -1,6 +1,6 @@
 <h2>Mybuddy</h2>
 <h4>programmeertalen: HTML, CSS &amp; PHP</h4>
-<h3><a href="Mybuddy/index.php" target="_blank" class="button">kijkje nemen</a> (de website is niet responsive en kan fouten bevaten)</h3>
+<h3><a href="MyBuddy/index.php" target="_blank" class="button">kijkje nemen</a> (de website is niet responsive en kan fouten bevaten)</h3>
 <p>
   In dit project maakten we een website waarin mensen groepen kunnen aanmaken en daarin geld kunnen delen.
   Als je een keer met vrienden uiteten gaat dan kan degene die betaalt een groep aanmaken, daar zijn
