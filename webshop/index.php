@@ -13,7 +13,7 @@
 <html>
   <head>
       <meta charset = "UTF-8">
-      <title>home - MyBuddy</title>
+      <title>home - webshop</title>
       <link href="css/style.css" rel="stylesheet">
       <script src="script.js" defer></script>
   </head>
@@ -24,7 +24,7 @@
 
     <div id="home">
       <?php include 'include/topbar.inc.php';
-        echo "<pre>", print_r($_SESSION),"</pre>";
+        // echo "<pre>", print_r($_SESSION),"</pre>";
       ?>
     </div>
 

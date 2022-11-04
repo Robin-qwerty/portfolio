@@ -33,9 +33,9 @@
             <p>
           <input style="width: 70%;" type="text" placeholder="postcode" name="postcode" id="postcode" required>
             <p>
-          <label for="psw-repeat"><b>geboortendatum *</b></label>
+          <label for="geboortendatum"><b>geboortendatum *</b></label>
             <p>
-          <input type="date" placeholder="geboortendatum" name="geboortendatum" id="geboortendatum" required>
+            <input type="date" placeholder="Enter geboortendatum" name="geboortendatum" id="geboortendatum" required>
           <hr>
           <label for="email"><b>email *</b></label>
             <p>
