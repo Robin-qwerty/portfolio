@@ -60,6 +60,7 @@
       <div class="hobby-photo-content">
         <img src="media/krunker.png">
         <img src="media/warthunder.jpg">
+        <img src="media/Screenshot%20from%202022-11-01%2013-24-33.png">
       </div>
       <?php
         }elseif($_GET['hobby'] == 'lego') {
