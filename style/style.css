@@ -385,7 +385,7 @@ html {
   margin: 0;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:1130px){
   .gitarrow {
     display: none;
   }
@@ -651,7 +651,6 @@ html {
   grid-auto-columns: 33%;
   gap: 1rem;
 }
-
 
 .hobby-photo-content img {
   max-width: 32%;
