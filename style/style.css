@@ -95,6 +95,24 @@ html {
   animation: fadename 1.5s ease-in;
 }
 
+@media screen and (max-width:420px){
+  .header {
+    font-size: 30px;
+  }
+  .title h1 {
+    border: 20px solid rgba(0,0,0,0.9);
+  }
+}
+
+@media screen and (max-width:355px){
+  .header {
+    font-size: 25px;
+  }
+  .title h1 {
+    border: 15px solid rgba(0,0,0,0.9);
+  }
+}
+
 @keyframes fadename {
   0%{
     transform: translateY(-25%);
@@ -289,10 +307,18 @@ html {
 
 @media screen and (max-width:750px){
   .home {
-    padding: 6%;
+    padding: 5%;
     font-size: 20px;
   }
 }
+
+@media screen and (max-width:420px){
+  .home {
+    padding: 4%;
+    font-size: 15px;
+  }
+}
+
 
 /*-----------------------coding--------------------------*/
 
