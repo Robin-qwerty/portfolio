@@ -1,3 +1,5 @@
+<script src="script/navscript.js" defer></script>
+
 <div class="navbar sticky" id="menulist">
   <iconify-icon icon="ei:navicon" class="nav-icon" onclick="togglemenu()"></iconify-icon>
   <a href="<?php if(isset($page) && $page != 'home'){echo'index.php?page=';} else {echo'#';}?>home" class="robin"><h1>Robin Hollaar</h1></a>

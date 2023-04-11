@@ -1,6 +1,6 @@
 <h2>Webshop</h2>
 <h4>programmeertalen: HTML, CSS &amp; PHP</h4>
-<h3><a href="webshop/index.php" target="_blank" class="button">kijkje nemen</a> (de website is niet responsive en kan fouten bevaten)</h3>
+<h3><a href="webshop/index.php" target="_blank" class="button">kijkje nemen</a> (de website is <u>niet</u> responsive en kan fouten bevaten)</h3>
 <p>
   In dit project maakten we een website voor V&amp;D waarop klanten producten in een winkelmandje moeten kunnen stopen en die dan moeten kunnen kopen.
 Er moest een ook page voor de admin/medewerker zijn die producten en categoriëen moest kunnen toevoegen, verwijderen of aanpassen.
