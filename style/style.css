@@ -80,6 +80,13 @@ html {
 }
 
 .title h1 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 65px;
+  margin: 25px 0;
   max-width: 100%;
   max-height: 200px;
   padding: 5px;
@@ -95,20 +102,16 @@ html {
   animation: fadename 1.5s ease-in;
 }
 
-@media screen and (max-width:420px){
-  .header {
-    font-size: 30px;
-  }
+@media screen and (max-width:620px){
   .title h1 {
+    font-size: 50px;
     border: 20px solid rgba(0,0,0,0.9);
   }
 }
 
-@media screen and (max-width:355px){
-  .header {
-    font-size: 25px;
-  }
+@media screen and (max-width:500px){
   .title h1 {
+    font-size: 40px;
     border: 15px solid rgba(0,0,0,0.9);
   }
 }
@@ -423,17 +426,18 @@ html {
 
 .werk-school {
   padding: 1rem;
-
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   place-items: center;
   grid-gap: 1rem;
-  grid-template-areas: "werk school";
+  /* grid-template-areas: "werk school stage"; */
   overflow-x: auto;
   overscroll-behavior-inline: contain;
 }
 
 .werk {
-  grid-area: "werk";
+  /* grid-area: "werk"; */
   background: #1daf8d;
   padding: 1rem;
   border-radius: 1rem;
@@ -441,20 +445,20 @@ html {
 }
 
 .school {
-  grid-area: "school";
+  /* grid-area: "school"; */
   background: #1daf8d;
   padding: 1rem;
   border-radius: 1rem;
   min-width: 275px;
 }
 
-/* .ervaringen {
-  grid-area: "ervaringen";
+.stage {
+  /* grid-area: "stage"; */
   background: #1daf8d;
   padding: 1rem;
   border-radius: 1rem;
   min-width: 250px;
-} */
+}
 
 .title2 {
   text-align: center;
