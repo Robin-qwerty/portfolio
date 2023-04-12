@@ -14,12 +14,12 @@
   </div>
 
   <div class="right">
-    <div class="gitarrow"><iconify-icon icon="fa-regular:hand-point-up"></iconify-icon><strong><p>My github</p></strong></div>
+    <div class="gitarrow"><iconify-icon icon="fa-regular:hand-point-up" <?php if($page != 'home' && $page != ''){ echo'style="margin-top:3%"';}?>></iconify-icon><strong><p>My github</p></strong></div>
     <?php if (isset($_GET['project'])) {include 'include/'.$_GET['project'].'.inc.php';} else { ?>
       <h2>Coding Projecten</h2>
-      <p><b>Programmeertalen die ik leuk vind en veel gebruik: </b>HTML, CSS &amp; PHP.</p>
-      <p><b>Framework dat ik aan het leren ben: </b>Laravel</p>
-      <p>Hier zie je een paar van de projecten die ik heb gemaakt.</p>
+      <p><b>Programmeertalen die ik leuk vind en veel gebruik: <code>HTML, CSS, PHP  &amp; Javascript</code>.</b></p>
+      <p><b>Frameworks die ik gebruikt heb: </b><code><b>Xamarin</b></code> om in C# apps te maken en <code><b>Laravel</b></code> voor php websites.</p>
+      <p>Hier kun je een paar van de projecten die ik heb gemaakt bekijken.</p>
       <p>Tot nu toe zijn de meeste schoolprojecten.</p>
     <?php } ?>
   </div>
