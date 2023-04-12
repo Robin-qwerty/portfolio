@@ -108,11 +108,16 @@ html {
     border: 20px solid rgba(0,0,0,0.9);
   }
 }
-
 @media screen and (max-width:500px){
   .title h1 {
     font-size: 40px;
     border: 15px solid rgba(0,0,0,0.9);
+  }
+}
+@media screen and (max-width:385px){
+  .title h1 {
+    font-size: 32px;
+    border: 12px solid rgba(0,0,0,0.9);
   }
 }
 
@@ -412,7 +417,7 @@ code {
 .gitarrow {
   display: block;
   float: right;
-  margin-right: 8%;
+  margin-right: 110px;
   margin-top: -1%;
   font-size: 25px;
   text-align: center;
