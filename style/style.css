@@ -108,11 +108,16 @@ html {
     border: 20px solid rgba(0,0,0,0.9);
   }
 }
-
 @media screen and (max-width:500px){
   .title h1 {
     font-size: 40px;
     border: 15px solid rgba(0,0,0,0.9);
+  }
+}
+@media screen and (max-width:385px){
+  .title h1 {
+    font-size: 32px;
+    border: 12px solid rgba(0,0,0,0.9);
   }
 }
 
@@ -325,6 +330,12 @@ html {
 
 /*-----------------------coding--------------------------*/
 
+code {
+  background-color:rgba(0,0,0,.05);
+  border-radius:3px;
+  padding:2px 4px
+}
+
 .coding {
   display: flex;
   padding: 10px;
@@ -406,7 +417,7 @@ html {
 .gitarrow {
   display: block;
   float: right;
-  margin-right: 8%;
+  margin-right: 110px;
   margin-top: -1%;
   font-size: 25px;
   text-align: center;
@@ -706,8 +717,10 @@ footer {
   text-align: center;
   background-color: #0d0d0d;
   height: auto;
-  max-width: 100%;
+  width: 100%;
   margin: 10px 0px 0px 0px;
+  position: relative;
+  bottom: 0;
 }
 
 footer h2 {
