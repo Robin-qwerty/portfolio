@@ -18,7 +18,7 @@ function animateTitle(title) {
       clearInterval(interval);
     }
     iteration += 1 / 3;
-  }, 50);
+  }, 70);
 }
 
 const title = document.querySelector("#title");

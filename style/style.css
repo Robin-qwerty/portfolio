@@ -12,7 +12,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #20c59f;
   margin: 0;
-  margin-top: 60px;
+  margin-top: 60px!important;
   height: 100%;
   width: 100%;
 }
@@ -24,6 +24,10 @@ html {
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+[data-lang="en"] {
+  display: none;
 }
 
 /*-----------------------buttons--------------------------*/
@@ -94,6 +98,7 @@ html {
   border: 25px solid rgba(0,0,0,0.9);
   border-radius: 25px;
   box-shadow: 0 8px 40px 0 rgba(0,0,0,1);
+  background: #00cccc;
   background-image: url(../media/giphy.gif);
   background-size: cover;
   -webkit-background-clip: text;
@@ -190,7 +195,7 @@ html {
   display: none;
 }
 
-@media screen and (max-width:1130px){
+@media screen and (max-width:1300px){
    #navbar_right a {
     margin-top: 30px;
     float: left;
@@ -218,11 +223,11 @@ html {
   }
   #menulist {
     transition: 0.5s;
-    opacity: 0.95
+    opacity: 0.85
   }
 }
 
-@media screen and (max-width:920px){
+@media screen and (max-width:1015px){
   #navbar_left a {
     margin-top: 30px;
     float: left;
@@ -300,6 +305,7 @@ html {
   color: #cccccc;
   text-shadow: 2px 2px 4px #000000;
   animation: fadehome 1.5s ease-in;
+  font-family: "Space Mono", monospace;
 }
 
 @keyframes fadehome {
@@ -327,6 +333,11 @@ html {
   }
 }
 
+.Lhome {
+  float: right;
+  margin-bottom: -10px;
+  grid-template-columns: auto auto;
+}
 
 /*-----------------------coding--------------------------*/
 
@@ -341,11 +352,16 @@ code {
   padding: 10px;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
+  min-height: calc(100% - 250px);
 }
 
 .coding h2 {
   font-size: 35px;
   text-shadow: 1px 1px 2px white;
+}
+
+.stackedit__html {
+  width: 200%;
 }
 
 .left {
@@ -375,6 +391,12 @@ code {
 
 .right a {
   font-size: 20px;
+}
+
+@media screen and (max-width:750px){
+  .right {
+    width: 145%;
+  }
 }
 
 #mySearch {
@@ -417,7 +439,7 @@ code {
 .gitarrow {
   display: block;
   float: right;
-  margin-right: 110px;
+  margin-right: 108px;
   margin-top: -1%;
   font-size: 25px;
   text-align: center;
@@ -438,13 +460,14 @@ code {
 .werk-school {
   padding: 1rem;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
   place-items: center;
   grid-gap: 1rem;
   /* grid-template-areas: "werk school stage"; */
   overflow-x: auto;
   overscroll-behavior-inline: contain;
+  min-height: calc(100% - 250px);
 }
 
 .werk {
@@ -479,6 +502,7 @@ code {
 }
 
 .card {
+  margin-top: -0.5px;
   position: relative;
   max-width: 400px;
 }
@@ -570,7 +594,7 @@ code {
 
 .hobbys {
   background: #262626;
-  height: auto;
+  min-height: calc(100% - 250px);
 }
 
 .hobbys h1 {
@@ -585,7 +609,7 @@ code {
 .media-content a {
   position: relative;
   display: block;
-  z-index: 2;
+  z-index: 1;
   text-decoration: none;
   padding: 4px 0;
   transition: 0.5s;
@@ -627,7 +651,7 @@ code {
   display: grid;
   gap: 1rem;
   grid-auto-flow: column;
-  grid-auto-columns: 45%;
+  grid-auto-columns: 55%;
   padding: 1rem;
   background: #1a1a1a;
   border-radius: 1rem;
@@ -637,10 +661,11 @@ code {
 }
 
 .media-content {
+  /* width: 230px; */
   display: grid;
   gap: 1rem;
   padding: 1rem;
-  background: #1daf8d;
+  background: #139274;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -708,23 +733,63 @@ code {
   min-width: 350px;
 }
 
+.modal {
+  display: grid;
+  place-items: center;
+  margin-top: 60px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin-top: 3%!important;
+  margin: auto;
+  display: block;
+  width: auto;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /*-----------------------footer--------------------------*/
 
 footer {
   margin-top: 100px;
-
   padding: 1rem;
   text-align: center;
   background-color: #0d0d0d;
   height: auto;
   width: 100%;
   margin: 10px 0px 0px 0px;
-  position: relative;
-  bottom: 0;
 }
 
 footer h2 {
   color: white;
+}
+footer p {
+  color: white
 }
 
 .allmedia {
@@ -757,6 +822,16 @@ footer h2 {
   padding-bottom: 5px;
 }
 
-footer p {
-  color: white
+.Lfooter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.language button {
+  margin: 2px;
+  font-size: 18px;
+  color: #d9d9d9;
+  background-color: transparent;
+  border: none;
+  cursor:pointer;
+  cursor:pointer;
 }

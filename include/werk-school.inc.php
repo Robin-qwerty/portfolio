@@ -1,41 +1,56 @@
 <div class="werk-school" id="werk-school">
   <div class="werk">
-    <h1 class="title2">werk</h1>
+    <h1 class="title2" data-lang="nl">werk <iconify-icon icon="fa:suitcase" style="color: #d9d9d9;"></iconify-icon></h1>
+    <h1 class="title2" data-lang="en">work <iconify-icon icon="fa:suitcase" style="color: #d9d9d9;"></iconify-icon></h1>
+
     <div class="outer">
       <div class="card">
         <div class="info">
-          <h3 class="title1">Jumbo Vulploeg Medewerker</h3>
-          <p><b>17 Mei 2022 - heden,</b> Arnhem</p>
+          <h3 class="title1" data-lang="nl">Jumbo Vulploeg Medewerker</h3>
+          <h3 class="title1" data-lang="en">Jumbo Filling team employee</h3>
+
+          <p data-lang="nl"><b>17 Mei 2022 - heden,</b> Arnhem</p>
+          <p data-lang="en"><b>17 Mei 2022 - present,</b> Arnhem</p>
         </div>
       </div>
     </div>
   </div>
   <div class="school">
-    <h1 class="title2">school</h1>
+    <h1 class="title2">school <iconify-icon icon="material-symbols:school-rounded" style="color: #d9d9d9;"></iconify-icon></h1>
     <div class="outer">
       <div class="card">
         <div class="info">
           <h3 class="title1">Rijnijssel - MBO -  BOL Niveau 4 - Software Developer</h3>
-          <p><b>Augustus 2021 - heden,</b> Arnhem</p>
+
+          <p data-lang="nl"><b>Augustus 2021 - heden,</b> Arnhem</p>
+          <p data-lang="en"><b>August 2021 - present,</b> Arnhem</p>
         </div>
       </div>
       <div class="card">
         <div class="info">
           <h3 class="title1">OBC Elst - VMBO TL</h3>
           <p><b>2017 - 2021,</b> Elst</p>
-          <p><b>Profiel:</b> Techniek (natuurkunde & wiskunde)</p>
+
+          <p data-lang="nl"><b>Profiel:</b> Techniek (natuurkunde & wiskunde)</p>
+          <p data-lang="en"><b>Profile:</b> Engineering (physics and mathematics)</p>
         </div>
       </div>
     </div>
   </div>
   <div class="stage">
-    <h1 class="title2">Stage</h1>
+    <h1 class="title2" data-lang="nl">stage <iconify-icon icon="fa:certificate" style="color: #d9d9d9;"></iconify-icon></h1>
+    <h1 class="title2" data-lang="en">internship <iconify-icon icon="fa:certificate" style="color: #d9d9d9;"></iconify-icon></h1>
+
     <div class="outer">
       <div class="card">
         <div class="info">
           <h3 class="title1">Bij ict@school / ict@work - Software defelopment</h3>
-          <p><b>2023 - 13feb - heden,</b> duiven</p>
-          <p>Totaal <b>800 uur</b></p>
+
+          <p data-lang="nl"><b>2023 - 13 Februari - heden,</b> duiven</p>
+          <p data-lang="en"><b>2023 - 13 February - present,</b> duiven</p>
+
+          <p data-lang="nl">Totaal: <b>800 uur</b></p>
+          <p data-lang="en">total: <b>800 hours</b></p>
         </div>
       </div>
     </div>
