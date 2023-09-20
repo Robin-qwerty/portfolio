@@ -3,14 +3,18 @@
 <h4>Backend: <code>Node met Typescript &amp; mongodb</code></h4>
 <h3> <a href="#" target="_blank" class="button">bekijk op GitHub</a> <a href="#" target="_blank" class="button">kijkje nemen</a> (de website is <u>niet</u> af en kan fouten bevaten) </h3>
 
-<p>
+<hr>
+
+<h3>Ik was met mijn <a href="https://github.com/Z3NTL3" target="_blank">team genoot</a> 3e geworden op het code fest en heb een respberry pi starter kit gewonen, zonder raspberry pi :(</h3>
+
+<p data-lang="nl">
 </p>
 
-<div id="left">
+<div id="left" style="margin-top:-10px">
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 
   <div class="stackedit__html"><h1 id="codefest-2023">CodeFest 2023</h1>
-    <p>Dit wordt uiteindelijk een app backend voor het opdracht die we opkrijgen voor codefest 2023. Hierbij de basis voor snelle start</p>
+    <p data-lang="nl">Dit wordt uiteindelijk een app backend voor het opdracht die we opkrijgen voor codefest 2023. Hierbij de basis voor snelle start</p>
     <h3 id="techs">Techs</h3>
     <ul>
       <li>Frontend: <code>HTML, CSS &amp; Javascript</code></li>
@@ -29,7 +33,7 @@
       <li>Mail system</li>
     </ul>
     <h3 id="voorbeeld">Voorbeeld</h3>
-    <p><code>Dynamic metadata per view rendering (EJS)</code></p>
+    <p data-lang="nl"><code>Dynamic metadata per view rendering (EJS)</code></p>
       <pre class=" language-ts"><code class="prism  language-ts"><span class="token keyword">type</span> acceptableMetas <span class="token operator">=</span>
        <span class="token operator">|</span> <span class="token string">"keywords"</span>
        <span class="token operator">|</span> <span class="token string">"author"</span>

@@ -1,5 +1,7 @@
 <footer>
-  <h2>Mijn sociale media/contact mogelijkheden</h2>
+  <h2 data-lang="nl">Mijn sociale media/contact mogelijkheden</h2>
+  <h2 data-lang="en">My social media/contact options</h2>
+
   <div class="allmedia" id="media">
     <a href="https://discordapp.com/users/709759520573882478" target="_blank"><iconify-icon icon="carbon:logo-discord"></iconify-icon><p>discord</p></a>
     <a href="https://github.com/Robin-qwerty" target="_blank"><iconify-icon icon="cib:github"></iconify-icon><p>github</p></a>
@@ -9,4 +11,17 @@
     <a href="mailto:robin@humilis.net?subject=portfolio" target="_blank"><iconify-icon icon="bx:mail-send"></iconify-icon><p>email</p></a>
   </div>
   <p>Robin © 2022 - All rights reserved.</p>
+
+  <?php
+    if($page != 'home' && $page != '')
+    {
+      echo'
+        <div class="language Lfooter">
+          <button id="btnEnglish">English</button>
+          <button id="btnDutch">Nederlands</button>
+          <p data-lang="en" style="color:white;">*not everything wil be translated<p>
+        </div>
+      ';
+    }
+  ?>
 </footer>

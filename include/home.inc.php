@@ -9,15 +9,28 @@
       </div>
     </div>
 
+    <div class="language Lhome">
+      <button id="btnEnglish">English</button>
+      <button id="btnDutch">Nederlands</button>
+      <p data-lang="en" style="color:white;">*not everything wil be translated<p>
+    </div>
+
     <div class="home">
       <b>
-        <p>- 👋 Hallo, ik ben Robin en doe nu de opleiding software development. -</p>
-        <p>- 👀 Ik vind coderen erg leuk, daarom heb ik deze opleiding gekozen. -</p>
-        <!-- <p>- 👀 Ik ben op zoek naar een stage die te maken heeft met HTML, CSS &amp; PHP (of laravel). -</p> -->
-        <p>- 🌱 Tot nu toe heb ik vooral met <code>HTML, CSS, PHP, laravel</code> en een beetje <code>Javascript</code> gewerkt. -</p>
-        <p>- 🌱 En op mijn stage heb ik veel gebruik gemaakt van <code>C#</code> in het Framework <code>Xamarin</code>. -</p>
-        <!-- <p>- 🌱 Ik heb daar nu al aardig wat mee gewerkt en ik wil me daar verder in wil verdiepen. -</p> -->
-        <!-- <p>- 🌱 Ook ben ik mij aan het verdiepen in Laravel en vind dit tot nu toe erg interesant. -</p> -->
+        <p data-lang="nl">- 👋 Hallo, ik ben Robin en doe nu de opleiding software development. -</p>
+        <p data-lang="en">- 👋 Hello, I'm Robin and I'm currently studying software development. -</p>
+
+        <p data-lang="nl">- 👀 Ik vind coderen erg leuk, daarom heb ik deze opleiding gekozen. -</p>
+        <p data-lang="en">- 👀 I really like coding, that's why I chose this education. -</p>
+
+        <!-- <p data-lang="nl">- 👀 Ik ben op zoek naar een stage die te maken heeft met HTML, CSS &amp; PHP (of laravel). -</p> -->
+        <p data-lang="nl">- 🌱 Tot nu toe heb ik vooral met <code>HTML, CSS, PHP</code> en een beetje <code>Javascript</code> gewerkt. -</p>
+        <p data-lang="en">- 🌱 So far I have mostly worked with <code>HTML, CSS, PHP</code> and a little bit of <code>Javascript</code>. -</p>
+
+        <p data-lang="nl">- 🌱 En op mijn stage heb ik veel gebruik gemaakt van <code>C#</code> in het Framework <code>Xamarin</code>. -</p>
+        <p data-lang="en">- 🌱 And during my internship I mostly used <code>C#</code> in the Framework <code>Xamarin</code>. -</p>
+        <!-- <p data-lang="nl">- 🌱 Ik heb daar nu al aardig wat mee gewerkt en ik wil me daar verder in wil verdiepen. -</p> -->
+        <!-- <p data-lang="nl">- 🌱 Ook ben ik me aan het verdiepen in Laravel en vind dit tot nu toe erg interesant. -</p> -->
       </b>
     </div>
 
