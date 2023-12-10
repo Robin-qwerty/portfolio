@@ -1,9 +1,8 @@
 # portfolio
 
-My portfolio in the form of a website where I show what education I have done, what I am interested in and good at and some of my projects that I have made.
+Welcome to my portfolio! This website showcases my educational background, skills, interests, and highlights some of the projects I've developed done in school or in my free time.
 
-### Website made in 
-- `HTML`
-- `CSS`
-- `PHP`
-- `Javascript`
+## Website made in 
+- frontend: `HTML`, `CSS` and a little bit of `Javascript`
+- backend: `PHP` with `MySQL` databases
+
