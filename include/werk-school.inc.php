@@ -44,13 +44,14 @@
     <div class="outer">
       <div class="card">
         <div class="info">
-          <h3 class="title1">Bij ict@school / ict@work - Software defelopment</h3>
+        <h3 class="title1" data-lang="nl">Bij ict@school / ict@work - Software defelopment</h3>
+        <h3 class="title1" data-lang="en">At ict@school / ict@work - Software defelopment</h3>
 
-          <p data-lang="nl"><b>2023 - 13 Februari - heden,</b> duiven</p>
-          <p data-lang="en"><b>2023 - 13 February - present,</b> duiven</p>
+          <p data-lang="nl"><b>2023 - 13 Februari - 14 Juli,</b> Duiven</p>
+          <p data-lang="en"><b>2023 - 13 February - 14 Juli,</b> Duiven</p>
 
-          <p data-lang="nl">Totaal: <b>800 uur</b></p>
-          <p data-lang="en">total: <b>800 hours</b></p>
+          <p data-lang="nl">Totaal aantal stage uren: <b>832 uur</b></p>
+          <p data-lang="en">total amount of internship hours: <b>832 hours</b></p>
         </div>
       </div>
     </div>

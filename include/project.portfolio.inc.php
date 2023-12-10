@@ -10,13 +10,11 @@
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 
   <div class="stackedit__html"><h1 id="portfolio">portfolio</h1>
-    <p data-lang="nl">My portfolio in the form of a website where I show what education I have done, what I am interested in and good at and some of my projects that I have made.</p>
+    <p>Welcome to my portfolio! This website showcases my educational background, skills, interests, and highlights some of the projects I've developed done in school or in my free time.</p>
     <h3 id="website-made-in">Website made in</h3>
     <ul>
-      <li><code>HTML</code></li>
-      <li><code>CSS</code></li>
-      <li><code>PHP</code></li>
-      <li><code>Javascript</code></li>
+      <li>frontend: <code>HTML</code>, <code>CSS</code> and a little bit of <code>Javascript</code></li>
+      <li>backend: <code>PHP</code> with <code>MySQL</code> databases</li>
     </ul>
   </div>
 </div>

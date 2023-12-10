@@ -1,5 +1,6 @@
 $(document).ready(function() {
   localStorage.setItem('lang', 'nl');
+
   setLanguage();
 
   $('#btnEnglish').click(function() {

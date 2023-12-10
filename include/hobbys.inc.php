@@ -17,7 +17,6 @@
       <a href="index.php?page=hobbys&hobby=gaming#gaming"><p class="media-title">> Gaming <</p></a>
       <img src="media/Screenshot from 2022-11-01 13-24-33.png">
       <a href="https://steamcommunity.com/profiles/76561199232592072" target="_blank" class="media"><b>check me out on > </b><img id="imglogo" src="media/steam-logo.png"></a>
-
     </div>
     <div class="media-content" id="lego">
       <a href="index.php?page=hobbys&hobby=lego#lego"><p class="media-title">> Lego <</p></a>

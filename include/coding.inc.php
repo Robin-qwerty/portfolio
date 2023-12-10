@@ -35,7 +35,7 @@
       <p data-lang="nl"><b>Programmeertalen die ik leuk vind en veel gebruik: <code>HTML, CSS, PHP</code></b> en een beetje <b><code>Javascript</code>.</b></p>
       <p data-lang="en"><b>Programming languages that I like and use a lot: <code>HTML, CSS, PHP  &amp; Javascript</code>.</b></p>
 
-      <p data-lang="nl"><b>Frameworks die ik gebruikt heb: </b><code><b>Xamarin</b></code> om in <code>C#</code> apps te maken en <code><b>Laravel</b></code> voor <code>php</code> websites.</p>
+      <p data-lang="nl"><b>Frameworks die ik gebruikt heb: </b><code><b>Xamarin</b></code> om in C# apps te maken en <code><b>Laravel</b></code> voor php websites.</p>
       <p data-lang="en"><b>Frameworks I've used: </b><code><b>Xamarin</b></code> to create apps in C# and <code><b>Laravel</b></code> for PHP websites.</p>
 
       <p data-lang="nl">Hier kun je een paar van de projecten die ik heb gemaakt bekijken.</p>

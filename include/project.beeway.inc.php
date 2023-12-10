@@ -13,9 +13,7 @@
 
   <div class="stackedit__html"><h1 id="beeway">Beeway</h1>
     <p>Project that I make during my internship at ict@school/ict@work</p>
-    <p>We had already started making this project in <code>Javascript/Jquery</code> with <code>ajax</code> and an api made in <code>PHP</code> (see repository ‘beeway’)<br>
-    but we realized it would take much less code and it would be easier and more secure to make it with Embedded PHP in the HTML.</p>
-    <p>It will be a kind of scheduling software for schools on a website.</p>
+    <p>It is ment to be some kind of scheduling software for schools on a website.</p>
     <p>Wil be hosted on <a href="http://beeway.nl/">http://beeway.nl/</a></p>
     <h2 id="beeway-code-explainh2">Beeway code explain</h2>
     <ul>
